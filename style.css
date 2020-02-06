@@ -36,8 +36,8 @@
 	display: inline-block;
 }
 
-.break{
-	height: 40vh;
+.gif{
+	width: 90%;
 }
 
 /*LANDING*/
@@ -166,8 +166,9 @@ button:hover{
 }
 
 .speaker_card{
+	vertical-align: top;
 	display: inline;
-	margin-bottom: 50%;
+	padding-bottom: 50px;
 	max-width: 16vw;
 	margin: 0 1.5vw;
 }
@@ -287,6 +288,10 @@ button:hover{
 		margin-bottom: 5vh;
 		max-width: 18vw;
 	}
+
+	.gif{
+		width: 100%;
+	}
 }
 
 @media screen and (orientation: landscape) and (max-width: 1100px){
@@ -298,7 +303,24 @@ button:hover{
 
 
 /*MOBILE*/
-@media screen and (max-width: 820px){
+@media screen and (max-width: 825px){
+	#landing{
+		margin: 8vh 5vw;
+	}
+
+	.gif{
+		width: 100%;
+	}
+
+	.button{
+		font-size: 1.5em;
+		margin-top: 5vh;
+	}
+
+	#about{
+		margin-top: 0;
+	}
+
 	.title{
 		font-size: 2em;
 	}
@@ -315,6 +337,7 @@ button:hover{
 
 	.container{
 		height: 60%;
+		margin: 10vh 5vw 0 5vw;
 	}
 
 	.container div{
@@ -335,7 +358,6 @@ button:hover{
 	}
 
 	#schedule_content{
-		display: block;
 		margin-right: 0;
 		width: 80%;
 		padding: 10%;
@@ -347,14 +369,9 @@ button:hover{
 	}
 
 	.speaker_card{
-		display: inline;
-		margin-bottom: 5vh;
-		max-width: 100%;
-		margin: 0;
-	}
-
-	.speaker_card div{
-		display: inline-block;
+		display: inline-block !important;
+		margin: 0 1.5vw 2vh 1.5vw;
+		max-width: 18vw;
 	}
 
 	.speaker_img{
@@ -365,9 +382,21 @@ button:hover{
 		max-width: 20vw;
 		padding: 0;
 	}
+
+	.dotshape{
+		transform: translateY(30vh);
+	}
 }
 
-@media screen and (max-width: 820px) and (orientation: landscape){
+@media screen and (max-width: 825px) and (orientation: landscape){
+	.gif{
+		width: 80%;
+	}
+
+	#landing{
+		margin-top: 5vh;
+	}
+
 	.container{
 		height: 100%;
 	}
@@ -391,6 +420,75 @@ button:hover{
 	}
 }
 
+@media screen and (max-width: 800px) and (orientation: portrait){
+	.container{
+		height: 40%;
+	}
+}
+
+/*SMALL SCREEN*/
+@media screen and (max-width: 700px){
+	.container{
+		height: 70%;
+	}
+}
+
+@media screen and (max-width: 700px) and (orientation: landscape){
+	.container{
+		height: 100%;
+	}
+
+	#speaker{
+		margin-bottom: 50vw;
+	}
+
+	.speaker_card{
+		margin: 0 1.5vw;
+		max-width: 27%;
+		padding: 10px 5px 10px 0 ;
+	}
+
+	.speaker_img, .speaker_name, .speaker_desc{
+		max-width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 450px) and (orientation: portrait){
+	.speaker_card{
+		margin: 0 1.5vw;
+		max-width: 42%;
+		padding: 10px 5px 10px 0 ;
+	}
+
+	.speaker_img, .speaker_name, .speaker_desc{
+		max-width: 100%;
+	}
+
+	.speaker_name, .speaker_desc{
+		margin-bottom: 0;
+	}
+
+	.speaker_desc{
+		padding-top: 5px;
+		font-size: 12px;
+	}
+
+/*EXTRA SMALL SCREEN*/
+@media screen and (max-width: 400px){
+	.container{
+		height: 100%;
+	}
+
+	#final_content{
+		grid-template-columns: 50% 50%;
+		grid-row-gap: 10px;
+	}
+}
+
+@media screen and (max-width: 400px) and (orientation: landscape){
+	
+}
 
 
 
