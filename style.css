@@ -289,6 +289,10 @@ button:hover{
 		max-width: 18vw;
 	}
 
+	.speaker_name{
+		line-height: 120%;
+	}
+
 	.gif{
 		width: 100%;
 	}
@@ -380,6 +384,10 @@ button:hover{
 		max-width: 20vw;
 	}
 
+	.speaker_name{
+		line-height: 120%;
+
+	}
 	.speaker_name, .speaker_desc{
 		max-width: 20vw;
 		padding: 0;
@@ -486,10 +494,6 @@ button:hover{
 		grid-template-columns: 50% 50%;
 		grid-row-gap: 10px;
 	}
-}
-
-@media screen and (max-width: 400px) and (orientation: landscape){
-	
 }
 
 
