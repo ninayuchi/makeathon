@@ -1,0 +1,409 @@
+@font-face {
+	font-family: 'RigidSquare';
+	src: url("fonts/RigidSquare-Regular.otf") format("opentype");
+}
+
+
+/*CLASSES*/
+.title{
+	font-family: 'RigidSquare', sans-serif;
+	font-weight: "Medium";
+	font-size: 50px;
+	text-shadow:
+	-1px -1px 0 white,
+	1px -1px 0 white,
+	-1px 1px 0 white,
+	1px 1px 0 white;
+	color: #3434f4;
+}
+
+.content{
+	font-family: titling-gothic-fb, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	line-height: 1.45em;
+	letter-spacing: 0.04em;
+	font-size: 1.2em;
+}
+
+.container{
+	margin: 20vh 10vw 0 10vw;
+	display: block;
+	height: 55%;
+}
+
+.container div{
+	display: inline-block;
+}
+
+.break{
+	height: 40vh;
+}
+
+/*LANDING*/
+button{
+	font-family: 'RigidSquare', sans-serif;
+	font-size: 2em;
+	padding: 1.5% 2.5%;
+	border-color: #3434f4;
+	background: #3434f4;
+	color: white;
+	border-width: 2px;
+	cursor: pointer;
+	margin-top: 3vh;
+}
+
+button:hover{
+  background: white;
+  color: #3434f4;
+  border-style: dashed;
+}
+
+#landing{
+	text-align: center;
+	margin: 5vh 10vw 0 10vw;
+	display: block;
+}
+
+
+/*ABOUT*/
+#about{
+	margin-top: 35vh;
+}
+
+#about_title{
+	width: 30%;
+}
+
+#about_content{
+	width: 50%;
+	float: right;
+	padding-top: 1%;
+}
+
+
+/*THEME*/
+#theme div{
+	display: block;
+}
+
+#theme_title{
+	vertical-align: top;
+	line-height: 130%;
+}
+
+#theme_content{
+	width: 60%;
+}
+
+
+/*FINAL DELIVERABLES*/
+#final_title{
+	width: 30%;
+	float: right;
+}
+
+#final_content{
+	width: 50%;
+	display: grid;
+	grid-template-columns: 40% 50%;
+	grid-template-rows: 50% 50% 50%;
+	grid-row-gap: 20px;
+  	padding-top: 1.5%;
+}
+
+
+/*SCHEDULE*/
+#schedule{
+	display: block;
+}
+
+#schedule_title{
+	float: right;
+	width: 50%;
+	margin-right: 5%;
+}
+
+#schedule_content{
+	margin-top: 2%;
+	width: 50%;
+	float: right;
+
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-row-gap: 20px;
+
+	border-style: dashed;
+	border-width: 3px;
+	padding: 50px;
+	border-color: #3434f4;
+	background-color: white;
+
+	margin-bottom: 10%;
+}
+
+.time {
+	text-align: right;
+	height: 19px;
+}
+
+
+/*SPEAKER AND MENTORS*/
+#speaker{
+	margin-top: 50vh;
+	margin-bottom: 50vh;
+}
+
+#speaker_content{
+	max-width: 80vw;
+}
+
+#speaker_title{
+	display: block;
+	padding-bottom: 3%;
+	width: 50%;
+	margin: 0;
+}
+
+.speaker_card{
+	display: inline;
+	margin-bottom: 50%;
+	max-width: 16vw;
+	margin: 0 1.5vw;
+}
+
+.speaker_card div{
+	display: block;
+}
+
+.speaker_img img{
+	border-style: solid;
+	border-width: 3px;
+	border-color: #3434f4;
+	border-radius: 50%;
+	width: 100%;
+}
+
+.speaker_name{
+	padding-top: 1%;
+}
+
+.speaker_desc{
+  font-family: titling-gothic-fb, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 130%;
+}
+
+
+/*DOTS*/
+.dotshape {
+	border-radius: 50%;
+	background-color: #3434f4;
+	position: absolute;
+	z-index: -1;
+}
+
+#dotshape1 {
+	top: 120vh;
+	left: 15vw;
+	width: 45px;
+	height: 45px;
+}
+
+#dotshape2 {
+	top: 250vh;
+	right: 15vw;
+	width: 54px;
+	height: 54px;
+}
+
+#dotshape3 {
+	top: 140vh;
+	left: 30vw;
+	width: 67.5px;
+	height: 67.5px;
+}
+
+#dotshape4 {
+  top: 175vh;
+  right: 12vw;
+  width: 108px;
+  height: 108px;
+}
+
+#dotshape5 {
+  top: 200vh;
+  left: 45vw;
+  width: 54px;
+  height: 54px;
+}
+
+
+#dotshape6 {
+  top: 270vh;
+  left: 20vw;
+  width: 54px;
+  height: 54px;
+}
+
+#dotshape7 {
+  top: 320vh;
+  left: 40vw;
+  width: 108px;
+  height: 108px;
+}
+
+#dotshape8 {
+  top: 370vh;
+  left: 20vw;
+  width: 67.5px;
+  height: 67.5px;
+}
+
+
+#dotshape9 {
+  top: 300vh;
+  right: 25vw;
+  width: 80px;
+  height: 80px;
+}
+
+/*RESPONSIVE*/
+
+/*TABLET*/
+@media screen and (max-width: 1100px){
+	.container{
+		margin: 20vh 5vw 0 5vw;
+		height: 40%;
+	}
+
+	#speaker_content{
+		max-width: 90vw;
+	}
+
+	.speaker_card{
+		margin-bottom: 5vh;
+		max-width: 18vw;
+	}
+}
+
+@media screen and (orientation: landscape) and (max-width: 1100px){
+	.container{
+		height: 100%;
+	}
+}
+
+
+
+/*MOBILE*/
+@media screen and (max-width: 820px){
+	.title{
+		font-size: 2em;
+	}
+
+	.content{
+		line-height: 1.45em;
+		letter-spacing: 0.04em;
+		font-size: 1em;
+	}
+
+	.title{
+		padding-bottom: .1em;
+	}
+
+	.container{
+		height: 60%;
+	}
+
+	.container div{
+		display: block;
+		width: 100%;
+	}
+
+	#about_content, #final_title, #schedule_title, #schedule_content{
+		float: left;
+	}
+
+	#theme_content, #about_content, #final_title, #final_content, #speaker_title{
+		width: 100%;
+	}
+
+	#schedule{
+		margin-top: 35vh;
+	}
+
+	#schedule_content{
+		display: block;
+		margin-right: 0;
+		width: 80%;
+		padding: 10%;
+	}
+
+	.time{
+		text-align: left;
+		height: 35px;
+	}
+
+	.speaker_card{
+		display: inline;
+		margin-bottom: 5vh;
+		max-width: 100%;
+		margin: 0;
+	}
+
+	.speaker_card div{
+		display: inline-block;
+	}
+
+	.speaker_img{
+		max-width: 20vw;
+	}
+
+	.speaker_name, .speaker_desc{
+		max-width: 20vw;
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 820px) and (orientation: landscape){
+	.container{
+		height: 100%;
+	}
+
+	#schedule_content{
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-row-gap: 10px;
+
+		border-style: dashed;
+		border-width: 3px;
+		padding: 50px;
+		border-color: #3434f4;
+		background-color: white;
+
+		margin-bottom: 10%;
+	}
+
+	.time{
+		text-align: right;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
