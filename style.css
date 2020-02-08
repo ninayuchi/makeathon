@@ -151,7 +151,15 @@ button:hover{
 /*SPEAKER AND MENTORS*/
 #speaker{
 	margin-top: 50vh;
-	margin-bottom: 50vh;
+	margin-bottom: 100px;
+}
+
+#mentor, #judge{
+	margin-top: 0;
+}
+
+#judge{
+	margin-bottom: 40vh;
 }
 
 #speaker_content{
@@ -195,6 +203,9 @@ button:hover{
   font-style: normal;
   font-size: 15px;
   line-height: 130%;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 
@@ -368,10 +379,13 @@ button:hover{
 		display: block;
 	}
 
-
 	.time{
 		text-align: left;
 		height: 35px;
+	}
+
+	#speaker{
+		margin-bottom: 200px;
 	}
 
 	.speaker_card{
@@ -448,7 +462,7 @@ button:hover{
 		height: 100%;
 	}
 
-	#speaker{
+	#mentor{
 		margin-bottom: 50vw;
 	}
 
@@ -465,6 +479,18 @@ button:hover{
 
 
 @media screen and (max-width: 450px) and (orientation: portrait){
+	#speaker{
+		max-height: 45%;
+	}
+
+	#mentor, #judge{
+		height: 80%;
+	}
+
+	#judge{
+		margin-bottom: 20vh;
+	}
+
 	.speaker_card{
 		margin: 0 1.5vw;
 		max-width: 42%;
@@ -494,9 +520,24 @@ button:hover{
 		grid-template-columns: 50% 50%;
 		grid-row-gap: 10px;
 	}
+
+	#mentor, #judge{
+		padding-top: 5vh;
+	}
 }
 
+/*IPHONE 5*/
+@media screen and (max-width: 320px){
 
+	#mentor, #judge{
+		height: 100%;
+	}
+
+	#mentor{
+		padding-top: 35vh;
+	}
+
+}
 
 
 
