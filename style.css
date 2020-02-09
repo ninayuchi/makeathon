@@ -126,6 +126,7 @@ a:hover{
 /*SCHEDULE*/
 #schedule{
 	display: block;
+	height: 100% !important;
 }
 
 #schedule_title{
@@ -160,16 +161,18 @@ a:hover{
 
 /*SPEAKER AND MENTORS*/
 #speaker{
-	margin-top: 60vh;
+	margin-top: 20vh;
 	height: 70%;
+	display: block;
 }
 
 #speaker, #mentor{
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 }
 
 #mentor, #judge{
 	margin-top: 0;
+	display: block;
 }
 
 #judge{
