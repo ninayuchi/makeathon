@@ -151,6 +151,9 @@ button:hover{
 /*SPEAKER AND MENTORS*/
 #speaker{
 	margin-top: 50vh;
+}
+
+#speaker, #mentor{
 	margin-bottom: 100px;
 }
 
