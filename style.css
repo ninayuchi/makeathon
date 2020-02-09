@@ -160,7 +160,8 @@ a:hover{
 
 /*SPEAKER AND MENTORS*/
 #speaker{
-	margin-top: 50vh;
+	margin-top: 60vh;
+	height: 70%;
 }
 
 #speaker, #mentor{
@@ -296,6 +297,13 @@ a:hover{
 }
 
 /*RESPONSIVE*/
+
+/*SHORT SCREEN (LAPTOP)*/
+@media screen and (max-height: 800px) and (orientation: landscape){
+	#speaker{
+		margin-top: 100vh;
+	}
+}
 
 /*TABLET*/
 @media screen and (max-width: 1100px){
