@@ -24,7 +24,7 @@
 	font-style: normal;
 	line-height: 1.45em;
 	letter-spacing: 0.04em;
-	font-size: 1.2em;
+	font-size: 20px;
 }
 
 .container{
@@ -44,7 +44,7 @@
 /*LANDING*/
 button{
 	font-family: 'RigidSquare', sans-serif;
-	font-size: 2em;
+	font-size: 30px;
 	padding: 1.5% 2.5%;
 	border-color: #3434f4;
 	background: #3434f4;
@@ -329,7 +329,7 @@ a:hover{
 	}
 
 	.gif{
-		width: 100%;
+		width: 90%;
 	}
 }
 
@@ -352,7 +352,7 @@ a:hover{
 	}
 
 	.button{
-		font-size: 1.5em;
+		font-size: 20px;
 		margin-top: 5vh;
 	}
 
@@ -361,13 +361,13 @@ a:hover{
 	}
 
 	.title{
-		font-size: 2em;
+		font-size: 35px;
 	}
 
 	.content{
 		line-height: 1.45em;
 		letter-spacing: 120%;
-		font-size: .85em;
+		font-size: 15px;
 	}
 
 	.title{
