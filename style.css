@@ -397,8 +397,12 @@ a:hover{
 		height: 35px;
 	}
 
+	#speaker{
+		padding-top: 10vh;
+	}
+
 	#speaker, #mentor{
-		margin-bottom: 200px;
+		padding-bottom: 200px;
 	}
 
 	.speaker_card{
