@@ -315,6 +315,10 @@ a:hover{
 		height: 40%;
 	}
 
+	#speaker{
+		height: 55%;
+	}
+
 	#speaker_content{
 		max-width: 90vw;
 	}
@@ -336,6 +340,14 @@ a:hover{
 @media screen and (orientation: landscape) and (max-width: 1100px){
 	.container{
 		height: 100%;
+	}
+
+	#mentor{
+		margin-bottom: 0;
+	}
+
+	#speaker, #mentor{
+		height: 70%;
 	}
 }
 
@@ -470,6 +482,10 @@ a:hover{
 	.time{
 		text-align: right;
 	}
+
+	#speaker{
+		height: 85%;
+	}
 }
 
 @media screen and (max-width: 800px) and (orientation: portrait){
@@ -538,7 +554,7 @@ a:hover{
 		font-size: 12px;
 	}
 
-/*EXTRA SMALL SCREEN*/
+/*EXTRA SMALL SCREENS*/
 @media screen and (max-width: 400px){
 	.container{
 		height: 100%;
@@ -554,7 +570,6 @@ a:hover{
 	}
 }
 
-/*IPHONE 5*/
 @media screen and (max-width: 320px){
 
 	#mentor, #judge{
